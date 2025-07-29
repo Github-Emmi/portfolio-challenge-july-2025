@@ -85,7 +85,8 @@ I'm open to collaboration, learning, and internship opportunities.
 ## ✅ Submission Details
 
 - **Repository**: https://github.com/Github-Emmi/portfolio-challenge-july-2025
-- **Hosted Site**: [Portfolio Live Link](#)
+- **Hosted Site (netlify)**: https://frabjous-blancmange-d0dc82.netlify.app/)
+- **Hosted Site (github page)**: 
 - **Submitted To**: PLP Academy Hackathon 1
 - **Start Date**: July 30th, 2025, 12:00 PM EAT  
 - **End Date**: August 3rd, 2025, 12:00 PM EAT
