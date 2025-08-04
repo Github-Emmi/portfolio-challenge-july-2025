@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional portfolio showcasing skills, projects, and achievements">
     <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript">
-    <title>EmmiDev| Software Developer Portfolio</title>
+    <title>EmmiDev | Software Developer Portfolio</title>
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container nav-container">
-            <a href="#" class="logo">Alex Morgan</a>
+            <a href="#" class="logo">EmmiDev</a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -53,9 +55,8 @@
                     <a href="#" class="btn" style="margin-top: 20px;">Download CV</a>
                 </div>
                 <div class="about-img">
-                    <div style="background: linear-gradient(135deg, #2563eb, #1e40af); height: 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
-                        Professional Photo
-                    </div>
+                    <!-- Professional photo -->
+                    <img src="profile.jpg" alt="Aghason Emmanuel - Web Developer" class="profile-photo">
                 </div>
             </div>
         </div>
@@ -99,7 +100,7 @@
                     <div class="timeline-content">
                         <div class="timeline-date">2020 - 2021</div>
                         <h3>Web Development Certification</h3>
-                        <p>Advanced Coding Institute</p>
+                        <p>Febmex Computer Academy</p>
                         <p>Completed an intensive full-stack development program focusing on modern JavaScript frameworks, responsive design, and API development.</p>
                     </div>
                 </div>
@@ -107,7 +108,7 @@
                     <div class="timeline-content">
                         <div class="timeline-date">2021 - Present</div>
                         <h3>Continuous Learning</h3>
-                        <p>Online Courses & Workshops</p>
+                        </p>LinkedIn</p>
                         <p>Regularly participating in professional development through platforms like Coursera, Udemy, and Frontend Masters to stay current with industry trends.</p>
                     </div>
                 </div>
@@ -115,28 +116,45 @@
         </div>
     </section>
 
-        <!-- Interests Section -->
+    <!-- Interests Section -->
     <section id="interests" style="background-color: var(--light-bg);">
         <div class="container">
             <h2>Professional Interests</h2>
-            <div class="about-content">
-                <div class="about-text">
+            <div class="interests-grid">
+                <!-- Web Development Card -->
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
                     <h3>Web Development</h3>
                     <p>I'm passionate about exploring modern frameworks and best practices. I enjoy creating responsive, accessible, and performant web applications that provide exceptional user experiences.</p>
-                    
+                </div>
+                
+                <!-- Tech Innovations Card -->
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
                     <h3>Tech Innovations</h3>
                     <p>Keeping up with emerging trends in technology is both a professional necessity and a personal interest. I'm particularly excited about progressive web apps, WebAssembly, and the future of web components.</p>
-                    
+                </div>
+                
+                <!-- UI/UX Design Card -->
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
                     <h3>UI/UX Design</h3>
                     <p>Understanding user behavior and designing intuitive interfaces is crucial to creating successful products. I constantly explore new design patterns and usability principles.</p>
-                    
+                </div>
+                
+                <!-- Open Source Card -->
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
                     <h3>Open Source</h3>
                     <p>Contributing to open-source projects allows me to collaborate with developers worldwide while improving my skills and giving back to the community.</p>
-                </div>
-                <div class="about-img">
-                    <div style="background: linear-gradient(135deg, #f97316, #ea580c); height: 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
-                        Interests Visualization
-                    </div>
                 </div>
             </div>
         </div>
@@ -148,7 +166,10 @@
             <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-img">Project 1</div>
+                    <!-- Project 1 image -->
+                    <div class="project-img" style="background-image: url('project1.jpg');">
+                        <div class="project-overlay">E-Commerce Platform</div>
+                    </div>
                     <div class="project-content">
                         <h3 class="project-title">E-Commerce Platform</h3>
                         <p>A full-featured e-commerce solution with product management, shopping cart, and secure payment processing. Built with modern JavaScript and a Node.js backend.</p>
@@ -159,7 +180,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-img">Project 2</div>
+                    <!-- Project 2 image -->
+                    <div class="project-img" style="background-image: url('project2.jpg');">
+                        <div class="project-overlay">Task Management App</div>
+                    </div>
                     <div class="project-content">
                         <h3 class="project-title">Task Management App</h3>
                         <p>A productivity application that helps teams organize tasks, set deadlines, and track progress. Features include drag-and-drop interface and real-time updates.</p>
@@ -170,7 +194,10 @@
                     </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-img">Project 3</div>
+                    <!-- Project 3 image -->
+                    <div class="project-img" style="background-image: url('project3.jpg');">
+                        <div class="project-overlay">Weather Dashboard</div>
+                    </div>
                     <div class="project-content">
                         <h3 class="project-title">Weather Dashboard</h3>
                         <p>An interactive weather application that provides forecasts using data from multiple APIs. Features geolocation, search, and detailed weather visualizations.</p>
@@ -206,7 +233,7 @@
                             <div class="contact-icon">✉️</div>
                             <div>
                                 <h4>Email</h4>
-                                <p>alex.morgan@example.com</p>
+                                <p>aghason@emmadev.com</p>
                             </div>
                         </div>
                         
@@ -220,10 +247,18 @@
                     </div>
                     
                     <div class="social-links">
-                        <a href="#" class="social-link">in</a>
-                        <a href="#" class="social-link">gh</a>
-                        <a href="#" class="social-link">tw</a>
-                        <a href="#" class="social-link">dr</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
                     </div>
                 </div>
                 
@@ -259,7 +294,7 @@
         <div class="container">
             <div class="footer-content">
                 <div>
-                    <div class="footer-logo">Alex Morgan</div>
+                    <div class="footer-logo">EmmiDev</div>
                     <p>Creating innovative web solutions with passion and precision.</p>
                 </div>
                 
@@ -277,16 +312,24 @@
                 <div>
                     <h3>Connect</h3>
                     <div class="social-links">
-                        <a href="#" class="social-link">in</a>
-                        <a href="#" class="social-link">gh</a>
-                        <a href="#" class="social-link">tw</a>
-                        <a href="#" class="social-link">dr</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
                     </div>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 Alex Morgan. All rights reserved.</p>
+                <p>&copy; 2023 Aghason Emmanuel. All rights reserved.</p>
             </div>
         </div>
     </footer>
